@@ -22,6 +22,10 @@ h1 {
    font-size: 3rem;
    font-weight: bold;
    display: inline;
+   position: absolute;
+   top: 25%;
+   transform: translateX(36%);
+
 }
 
 
@@ -36,16 +40,20 @@ h1 {
 
 /* Header */
 header {
-    height: 120px;
+    height: 100px;
     background-color: #fff;
     margin-bottom: 40px;
-    line-height: 100px;
+    /* line-height: 100px; */
+    position: relative;
 }
 
 #logo {
     height: 50px;
     vertical-align: middle;
     margin-left: 20px;
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Main */
