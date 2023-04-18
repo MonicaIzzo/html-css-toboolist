@@ -38,6 +38,14 @@ h1 {
     margin: 0 auto;
 }
 
+.padd-20 {
+    padding: 20px;
+}
+
+.marg-20 {
+    margin-bottom: 2px;
+}
+
 /* Header */
 header {
     height: 100px;
@@ -60,7 +68,6 @@ header {
 #sect-control {
    background-color: #fff; 
    border-radius: 10px 10px 0px 0px;
-   padding: 20px;
 }
 
 #list {
