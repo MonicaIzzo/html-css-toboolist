@@ -7,11 +7,66 @@ box-sizing: border-box;
 
 
 /* Generics */
+body {
+    background-color: #e3e3e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+h1 {
+   font-size: 3rem;
+   font-weight: bold;
+   display: inline;
+}
 
 
 
 
 /* Utilties */
 
+.cointener {
+    width: 1080px;
+    margin: 0 auto;
+}
 
 /* Header */
+header {
+    height: 120px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    line-height: 100px;
+}
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+/* Main */
+#sect-control {
+   background-color: #fff; 
+   border-radius: 10px 10px 0px 0px;
+   padding: 20px;
+}
+
+#list {
+   background-color: #fff; 
+}
+
+.task {
+    color: #fff;
+    border: 2px solid #1e90ff;
+    background-color: #1e90ff;
+}
+.section {
+    color: #808080;
+    border: 2px solid #808080;
+    background-color: #fff;
+
+}
