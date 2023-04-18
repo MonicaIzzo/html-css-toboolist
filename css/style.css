@@ -25,7 +25,54 @@ h1 {
    position: absolute;
    top: 25%;
    transform: translateX(36%);
+}
+li {
+    font-size: 1.2rem;
+ }
 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.icon {
+    font-size: 1.6rem;
+    background-color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+.icon-color-verde {
+    border: 2px solid #5cae5c;
+    color: #5cae5c;
+}
+
+.icon-color-verdechiaro {
+    border: 2px solid #b0c926;
+    color: #b0c926;
+}
+
+.icon-color-fuxia {
+    border: 2px solid #d863a1;
+    color: #d863a1;
+}
+
+.icon-color-rosso {
+    border: 2px solid #ff0000;
+    color: #ff0000;
+}
+
+.pill {
+background-color: #45abea;
+border-radius: 14px;
+padding: 8px;
+color: #fff;
+font-size: 0.7rem;
 }
 
 
@@ -42,9 +89,36 @@ h1 {
     padding: 20px;
 }
 
-.marg-20 {
+.marg-2 {
     margin-bottom: 2px;
 }
+
+.marg-20 {
+    margin-bottom: 20px;
+}
+
+.marg-40 {
+    margin-bottom: 40px;
+}
+.marg-top20 {
+    margin-top: 20px;
+}
+.bg-viola {
+    background-color:#9c72e4;
+}
+.bg-verde {
+    background-color:#64c0a9;
+}
+.bg-verdechiaro {
+    background-color:#64c0a9
+}
+.bg-fuxia {
+    background-color:#d863a1
+}
+.bg-arancione {
+    background-color:#f29e33;
+}
+
 
 /* Header */
 header {
@@ -60,8 +134,8 @@ header {
     vertical-align: middle;
     margin-left: 20px;
     position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Main */
@@ -84,4 +158,8 @@ header {
     border: 2px solid #808080;
     background-color: #fff;
 
+}
+summary {
+    font-size: 24px;
+    font-weight: bold;
 }

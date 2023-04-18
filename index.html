@@ -21,35 +21,50 @@
     <main class="cointener">
 
     <!-- Controlli -->
-    <section id="sect-control" class="padd-20 marg-20">
+    <section id="sect-control" class="padd-20 marg-2">
         <button class="task">Add Task</button>
         <button class="section">Add Section</button>
     </section>    
 
     <!-- Liste -->
-    <section id="list">
+    <section id="list" class="padd-20 marg-20">
         <!-- Lista New -->
-        <section id="new-task">
-            <h2>New Task</h2>
-            <span>&#10007;</span> Quarterly Newsletter <span>Editorial</span>
+        <section id="new-task" class="marg-40 marg-top20">
+            <details>
+                <summary>New Task</summary>
+                    <ul>
+                        <li class="marg-40 marg-top20"><span class="icon icon-color-verde">&#10004;</span> Quarterly Newsletter <span class="pill">Editorial</span></li>
+                      </ul>
+              </details>    
         </section>
 
-        <!-- Lista Today -->
-        <section id="today">
-            <h2>Today</h2>
-            <span>&#10007;</span> Recruiting blogo post <span>Editorial</span>
-            <span>&#10007;</span> Mobile app launch <span>Q1-goals</span>
-            <span>&#10004;</span>Interview John H. <span> Recruiting</span>
-            <span>&#10007;</span> Summit update to mobile storefronts <span>Mobile</span>
-        </section>
+            <!-- Lista Today -->
+            <section id="today" class="marg-40 marg-top20">
+                <details>
+                    <summary>Today</summary>
+                        <ul>
+                            <li class="marg-40 marg-top20"><span class="icon  icon-color-verde">&#10004;</span> Recruiting blogo post <span class="pill">Editorial</span></li>
+                            <li class="marg-40 marg-top20"><span class="icon  icon-color-verde">&#10004;</span> Mobile app launch <span class="pill bg-viola">Q1-goals</span></li>
+                            <li class="marg-40 marg-top20"><span class="icon icon-color-rosso">&#10007;</span> Interview John H. <span class="pill bg-verde">Recruiting</span></li>
+                            <li class="marg-40 marg-top20"><span class="icon  icon-color-verde">&#10004;</span> Summit update to mobile storefronts <span class="pill bg-arancione">Mobile</span></li>
+                          </ul>
+                  </details>    
+            </section>
+
 
         <!-- Lista  Coming -->
-        <section id="upcoming">
-            <h2>Upcoming</h2>
-            <span>&#10004;</span>Schedule Meeting with Alex <span>Recruiting</span>
-    <span>&#10007;</span> Homepage refresh <span>Website</span>
-    <span>&#10004;</span>Onboard new Sales team members <span>Sales</span>
-    <span>&#10007;</span> Review editorial character <span>Editorial</span>
+
+
+        <section id="upcoming" class="marg-40 marg-top20">
+            <details>
+                <summary>Upcoming</summary>
+                    <ul>
+                        <li class="marg-40 marg-top20"><span class="icon  icon-color-rosso">&#10007;</span> Schedule Meeting with Alex <span class="pill bg-verde">Recruiting</span></li>
+                        <li class="marg-40 marg-top20"><span class="icon icon-color-verde">&#10004;</span> Homepage refresh <span class="pill bg-fuxia">Website</span></li>
+                        <li class="marg-40 marg-top20"><span class="icon  icon-color-rosso">&#10007;</span> Onboard new Sales team members <span class="pill bg-verdechiaro">Sales</span></li>
+                        <li class="marg-40 marg-top20"><span class="icon  icon-color-verde">&#10004;</span> Review editorial character <span class="pill bg-arancione">Editoriale</span></li>
+                      </ul>
+              </details>    
         </section>
     </section>
 
